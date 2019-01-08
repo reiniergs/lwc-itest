@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/reinier.guerra/.nvm/versions/node/v9.10.0/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js add lwc-itest
+
+PATH: 
+  /Users/reinier.guerra/.nvm/versions/node/v9.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  9.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/lwc-itest: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:65327:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:133155:22)
+      at Request.emit (events.js:180:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:134138:10)
+      at Request.emit (events.js:180:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:134058:12)
+      at Object.onceWrapper (events.js:272:13)
+      at IncomingMessage.emit (events.js:185:15)
+      at endReadableNT (_stream_readable.js:1106:12)
+      at process._tickCallback (internal/process/next_tick.js:114:19)
+
+npm manifest: 
+  {
+    "name": "lwc-standalone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

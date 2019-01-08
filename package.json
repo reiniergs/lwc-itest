@@ -1,0 +1,17 @@
+{
+  "name": "lwc-itest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "lwc-itest": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reinier Guerra",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
