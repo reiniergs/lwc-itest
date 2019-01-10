@@ -7,6 +7,6 @@ program.version(version);
 
 program
     .command('build', 'It build all the component tests')
-    .action(require('./commands/build'));
+    .action(require('./commands/build')(program));
 
 program.parse(process.argv);
